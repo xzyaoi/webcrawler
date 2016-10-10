@@ -50,7 +50,7 @@ class CBExtract(BaseExtractor):
                 print str(e)
 
 def main():
-    leancloud.init("fg7IDMoafWne1Vx4JFl2vzpS-gzGzoHsz", "hAHOvOHqdX0e0WAy89SkVwGe")
+    leancloud.init("APP_ID", "APP_KEY")
     cbe=CBExtract()
     urls=['http://weekly.manong.io/issues/137']
     cf=CrawlerFactory()
