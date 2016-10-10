@@ -10,6 +10,16 @@ So, Here's a lib for web crawling. It is based on gevent, requests and Beautiful
 
 The Usage is quite SIMPLE, which is the common character of my piece.
 
+## Install
+
+#### thru pip
+
+If you have pip installed already, just simply type ```pip install costina ```. Then Costina and it's deps will be installed automatically.
+
+#### thru file
+
+If you do not have pip, just clone this repo or download zip. Then type ```python setup.py install ```. Then Costina and it's deps will be installed automatically.
+
 ## Usage 
 
 The ```example.py``` is a simple example. the result has been put on [This Site](http://blog.askfermi.me/newsfeed.html).
