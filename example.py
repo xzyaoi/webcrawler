@@ -4,8 +4,8 @@
 '''
 
 import leancloud
-from webcrawler.basemodel import Model,StringField
-from webcrawler.base import BaseExtractor,CrawlerFactory
+from costina.basemodel import Model,StringField
+from costina.base import BaseExtractor,CrawlerFactory
 import urllib
 import jieba.analyse
 import jieba
@@ -50,9 +50,9 @@ class CBExtract(BaseExtractor):
                 print str(e)
 
 def main():
-    leancloud.init("APPID", "APP_KEY")
+    leancloud.init("fg7IDMoafWne1Vx4JFl2vzpS-gzGzoHsz", "hAHOvOHqdX0e0WAy89SkVwGe")
     cbe=CBExtract()
-    urls=['http://weekly.manong.io/issues/135']
+    urls=['http://weekly.manong.io/issues/137']
     cf=CrawlerFactory()
     cf.start(urls,cbe)
 

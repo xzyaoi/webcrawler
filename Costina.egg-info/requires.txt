@@ -1,0 +1,4 @@
+gevent
+requests
+bs4
+leancloud-sdk
